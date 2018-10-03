@@ -1,0 +1,215 @@
+{
+	"info": {
+		"_postman_id": "1877422f-55af-4eba-b993-d32045a44f21",
+		"name": "Aviation API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "airplane",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"make\": \"Jabiru\",\n    \"model\": \"UL-450\",\n    \"registration\": \"G-EEEL\",\n    \"yearBuilt\": 2001,\n    \"owner\": \"GCNAB Group\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:2241/aviation/api/airplanes/G-CNAB",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2241",
+					"path": [
+						"aviation",
+						"api",
+						"airplanes",
+						"G-CNAB"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "airplanes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"make\": \"Jabiru\",\n    \"model\": \"UL-450\",\n    \"registration\": \"G-EEEL\",\n    \"yearBuilt\": 2001,\n    \"owner\": \"GCNAB Group\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:2241/aviation/api/airplanes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2241",
+					"path": [
+						"aviation",
+						"api",
+						"airplanes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "airplane",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"make\": \"Jabiru\",\n    \"model\": \"UL-450\",\n    \"registration\": \"G-EEEL\",\n    \"yearBuilt\": 2001,\n    \"owner\": \"GCNAB Group\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:2241/aviation/api/airplanes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2241",
+					"path": [
+						"aviation",
+						"api",
+						"airplanes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "airports",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"make\": \"Jabiru\",\n    \"model\": \"UL-450\",\n    \"registration\": \"G-EEEL\",\n    \"yearBuilt\": 2001,\n    \"owner\": \"GCNAB Group\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:2241/aviation/api/airports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2241",
+					"path": [
+						"aviation",
+						"api",
+						"airports"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "airport",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"make\": \"Jabiru\",\n    \"model\": \"UL-450\",\n    \"registration\": \"G-EEEL\",\n    \"yearBuilt\": 2001,\n    \"owner\": \"GCNAB Group\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:2241/aviation/api/airports/EGAD",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2241",
+					"path": [
+						"aviation",
+						"api",
+						"airports",
+						"EGAD"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "airport",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"ICAO\": \"EGAC\",\n    \"Name\": \"Belfast City Airport\",\n    \"Location\": \"Belfast, Northern Ireland\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:2241/aviation/api/airports",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "2241",
+					"path": [
+						"aviation",
+						"api",
+						"airports"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
