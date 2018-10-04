@@ -1,6 +1,8 @@
 # structure
 
-Two examples of structuring a Go application
+Two examples of structuring a Go application based off a talk at the Belfast Gophers October 2018 meetup. 
+
+[Slides used in talk](https://docs.google.com/presentation/d/1QWS6yItYxWjDxxCOdWBueffHonT7BCZzdPUeF0q8AuU/edit?usp=sharing)
 
 ## mvc
 
